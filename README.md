@@ -3,6 +3,22 @@ Physics-Informed Machine Learning for Asteroid Impact Ejecta Prediction and Inve
 
 ---
 
+# Pipeline
+
+Impact Parameters
+        ↓
+Physics Feature Engineering
+        ↓
+Ensemble ML Models
+        ↓
+Prediction Validation
+        ↓
+Explainable AI (SHAP)
+        ↓
+Bayesian Optimization
+        ↓
+Inverse Design Scenarios
+
 # Project Overview
 
 This project develops a physics-informed machine learning framework to model fragmentation and material displacement caused by asteroid impacts. The goal is to predict ejecta outcomes from impact parameters and design impact scenarios that satisfy specific debris constraints.
