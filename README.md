@@ -181,6 +181,48 @@ boom-impact-ai/
 
 ---
 
+## Hardware Requirements
+
+The proposed solution is computationally efficient and does not require specialized hardware such as GPUs.
+
+### Training Environment
+
+- **Operating System:** Microsoft Windows 11 Home (Version 10.0.26100)
+- **Processor:** Intel Core i7-6700HQ CPU @ 2.60 GHz (4 cores, 8 threads)
+- **RAM:** 24 GB
+- **System Architecture:** x64-based PC
+- **Machine:** Lenovo IdeaPad Y700-15ISK
+- **Python Version:** Python 3.12
+
+### Hardware Usage
+
+The algorithm was developed and executed on a standard laptop without GPU acceleration.
+
+- **GPU:** Not required
+- **Compute:** CPU only
+
+### Training Time
+
+Training the ensemble machine learning model (Random Forest, Extra Trees, and XGBoost) takes approximately:
+
+- **~1–3 minutes on CPU**
+
+### Inference Performance
+
+Prediction is very lightweight:
+
+- Predicting ejecta outcomes for the entire test dataset (492 scenarios) takes **less than 1 second**.
+
+### Inverse Design Optimization
+
+The Bayesian optimization process used for inverse design typically completes within:
+
+- **~2–5 minutes on CPU**
+
+### Practicality
+
+The algorithm can run efficiently on standard personal computers without requiring GPUs or specialized hardware. This makes the approach suitable for rapid experimentation, deployment, and application to other physics-driven modeling problems.
+
 # Reproducibility
 
 To reproduce the results:
