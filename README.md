@@ -189,7 +189,7 @@ The proposed solution is computationally efficient and does not require speciali
 
 - **Operating System:** Microsoft Windows 11 Home (Version 10.0.26100)
 - **Processor:** Intel Core i7-6700HQ CPU @ 2.60 GHz (4 cores, 8 threads)
-- **RAM:** 24 GB
+- **RAM:** 16 GB
 - **System Architecture:** x64-based PC
 - **Machine:** Lenovo IdeaPad Y700-15ISK
 - **Python Version:** Python 3.12
@@ -254,4 +254,4 @@ Together these components create a comprehensive framework for **predicting and 
 
 # Author
 
-Submission for the **Boom: Trajectory Unknown Challenge**.
+Aklesh Mishra
